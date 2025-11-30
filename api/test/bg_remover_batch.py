@@ -1,4 +1,4 @@
-from app.services.bg_remover import remove_bg_batch
+from services.bg_remover import remove_bg_batch
 
 from typing import List
 from fastapi import APIRouter, UploadFile, File

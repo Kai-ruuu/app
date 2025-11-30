@@ -1,6 +1,6 @@
-from app.utils.image import get_batch_image_contents
-from app.utils.setup import remover_single_model, remover_batch_model 
-from app.utils.validation import validate_single_image, validate_batch_images
+from utils.image import get_batch_image_contents
+from utils.setup import remover_single_model, remover_batch_model 
+from utils.validation import validate_single_image, validate_batch_images
 
 from io import BytesIO
 from pathlib import Path

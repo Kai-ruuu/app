@@ -1,5 +1,5 @@
-from app.api.test import bg_remover_batch as bgrb_api
-from app.api.test import bg_remover_single as bgrs_api
+from api.test import bg_remover_batch as bgrb_api
+from api.test import bg_remover_single as bgrs_api
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware

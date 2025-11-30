@@ -1,5 +1,4 @@
 from magic import from_buffer
-from fastapi import UploadFile
 
 image_mimes = { 'image/jpeg', 'image/png' }
 

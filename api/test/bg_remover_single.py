@@ -1,4 +1,4 @@
-from app.services.bg_remover import remove_bg_single
+from services.bg_remover import remove_bg_single
 
 from fastapi import APIRouter, UploadFile, File
 
